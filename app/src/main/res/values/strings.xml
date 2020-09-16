@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">TypeRacer</string>
+    <string name="app_name">Type Racer</string>
+    <string name="play">Play</string>
+    <string name="sentence_sample">Chuck shoulder turducken ham hock flank burgdoggen. Beef tongue pork belly shank brisket biltong fatback, doner salami burgdoggen venison picanha sausage corned beef bresaola. Pastrami turkey pork belly ball tip sirloin pig cow tail. Frankfurter beef brisket jowl pork venison. Frankfurter jowl tri-tip fatback, pork belly shankle pancetta swine tenderloin. Ball tip spare ribs cupim beef ribs landjaeger pancetta. Brisket meatball porchetta kevin. Andouille kielbasa tenderloin ham hock turkey cupim. Picanha beef ribs alcatra shankle chuck buffalo short ribs, biltong filet mignon doner kevin pork frankfurter cupim. Short ribs spare ribs beef ribs pork capicola rump.</string>
+    <string name="wpm_title">WPM</string>
+    <string name="completion_percent_title">Completion</string>
+    <string name="accuracy_title">Accuracy</string>
+    <string name="new_game">New Game</string>
+    <string name="try_again">Try Again</string>
 </resources>

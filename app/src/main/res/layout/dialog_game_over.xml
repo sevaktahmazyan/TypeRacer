@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:background="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/tv_wpm_title"
+            style="@style/GameOverDialogFiledTitleStyle"
+            android:layout_marginTop="30dp"
+            android:text="@string/wpm_title"
+            app:layout_constraintEnd_toStartOf="@id/tv_completion_percent_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_wpm"
+            style="@style/GameOverDialogFiledStyle"
+            app:layout_constraintEnd_toEndOf="@id/tv_wpm_title"
+            app:layout_constraintStart_toStartOf="@id/tv_wpm_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_wpm_title"
+            tools:text="28.5" />
+
+        <TextView
+            android:id="@+id/tv_completion_percent_title"
+            style="@style/GameOverDialogFiledTitleStyle"
+            android:text="@string/completion_percent_title"
+            app:layout_constraintBottom_toBottomOf="@id/tv_wpm_title"
+            app:layout_constraintEnd_toStartOf="@id/tv_accuracy_title"
+            app:layout_constraintStart_toEndOf="@id/tv_wpm_title"
+            app:layout_constraintTop_toTopOf="@id/tv_wpm_title" />
+
+        <TextView
+            android:id="@+id/tv_completion_percent"
+            style="@style/GameOverDialogFiledStyle"
+            app:layout_constraintEnd_toEndOf="@id/tv_completion_percent_title"
+            app:layout_constraintStart_toStartOf="@id/tv_completion_percent_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_completion_percent_title"
+            tools:text="98.5%" />
+
+        <TextView
+            android:id="@+id/tv_accuracy_title"
+            style="@style/GameOverDialogFiledTitleStyle"
+            android:text="@string/accuracy_title"
+            app:layout_constraintBottom_toBottomOf="@id/tv_wpm_title"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_completion_percent_title"
+            app:layout_constraintTop_toTopOf="@id/tv_wpm_title" />
+
+        <TextView
+            android:id="@+id/tv_accuracy"
+            style="@style/GameOverDialogFiledStyle"
+            app:layout_constraintEnd_toEndOf="@id/tv_accuracy_title"
+            app:layout_constraintStart_toStartOf="@id/tv_accuracy_title"
+            app:layout_constraintTop_toBottomOf="@id/tv_accuracy_title"
+            tools:text="98.5%" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_new_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:paddingHorizontal="40dp"
+            android:text="@string/new_game"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintCircleRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_wpm" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
