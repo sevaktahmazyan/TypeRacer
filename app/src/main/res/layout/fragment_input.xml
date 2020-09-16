@@ -110,6 +110,7 @@
         android:paddingHorizontal="60dp"
         android:text="@string/try_again"
         android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
         android:textSize="24sp"
         android:visibility="gone"
         app:cornerRadius="20dp"

@@ -73,6 +73,7 @@
             android:paddingHorizontal="40dp"
             android:text="@string/new_game"
             android:textColor="@android:color/white"
+            android:backgroundTint="@color/colorAccent"
             android:textSize="24sp"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
