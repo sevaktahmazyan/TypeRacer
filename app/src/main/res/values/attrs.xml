@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidTextEditText">
+        <attr name="mistakeBackground" format="reference" />
+        <attr name="defaultBackground" format="reference" />
+        <attr name="mistakeSymbolColor" format="color" />
+        <attr name="showMistakeSymbol" format="boolean" />
+    </declare-styleable>
+</resources>
